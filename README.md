@@ -55,7 +55,6 @@ npm run dev
 The frontend should be accessible at http://localhost:3000.
 
 
-├── vite.config.js
 Contributing
 Feel free to fork the repository, create a branch for new features, and submit a pull request. Please ensure that your code adheres to the existing coding standards.
 
