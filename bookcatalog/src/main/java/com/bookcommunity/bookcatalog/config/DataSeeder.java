@@ -52,7 +52,7 @@ public class DataSeeder implements CommandLineRunner {
         Book book3 = new Book();
         book3.setTitle("Wise and Otherwise");
         book3.setAuthor("Sudha Murthy");
-        book3.setDescription(" A Salute to Life is a collection of fifty one short stories baed on the real life experiences of Mrs Sudha Murthy. ");
+        book3.setDescription(" A Salute to Life is a collection of fifty one short stories based on the real life experiences of Mrs Sudha Murthy. ");
         book3.setCoverImageUrl("/images/book3.jpg");
         book3.setPrice(209.99);
         book3.setGenre(nonFiction);
