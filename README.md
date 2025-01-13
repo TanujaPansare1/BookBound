@@ -53,41 +53,8 @@ bash
 Copy code
 npm run dev
 The frontend should be accessible at http://localhost:3000.
-Project Structure
-Backend:
-bash
-Copy code
-bookcatalog/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── com/
-│   │   │   │   └── bookcommunity/
-│   │   │   │       └── bookcatalog/
-│   │   │   │           ├── controller/
-│   │   │   │           ├── model/
-│   │   │   │           ├── repository/
-│   │   │   │           ├── service/
-│   │   │   │           └── BookcatalogApplication.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── static/Images/
-│   ├── test/
-│   │   └── java/com/bookcommunity/bookcatalog/BookcatalogApplicationTests.java
-Frontend:
-arduino
-Copy code
-bookcommunity-catalog-react/
-│
-├── public/
-│   └── index.html
-├── src/
-│   ├── App.jsx
-│   ├── BookList.jsx
-│   ├── GenreFilter.jsx
-│   └── main.jsx
-├── package.json
+
+
 ├── vite.config.js
 Contributing
 Feel free to fork the repository, create a branch for new features, and submit a pull request. Please ensure that your code adheres to the existing coding standards.
